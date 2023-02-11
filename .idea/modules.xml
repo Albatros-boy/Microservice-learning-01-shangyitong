@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Microservice-learning-01-shangyitong.iml" filepath="$PROJECT_DIR$/.idea/Microservice-learning-01-shangyitong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/common/common.iml" filepath="$PROJECT_DIR$/shangyitong_parent/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/common/common-util/common-util.iml" filepath="$PROJECT_DIR$/shangyitong_parent/common/common-util/common-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/model/model.iml" filepath="$PROJECT_DIR$/shangyitong_parent/model/model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/common/service-util/service-util.iml" filepath="$PROJECT_DIR$/shangyitong_parent/common/service-util/service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service_user/service_user.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service_user/service_user.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/shangyitong_parent.iml" filepath="$PROJECT_DIR$/shangyitong_parent/shangyitong_parent.iml" />
     </modules>
   </component>
