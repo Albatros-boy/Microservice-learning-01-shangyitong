@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Microservice-learning-01-shangyitong.iml" filepath="$PROJECT_DIR$/.idea/Microservice-learning-01-shangyitong.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/shangyitong_parent.iml" filepath="$PROJECT_DIR$/shangyitong_parent/shangyitong_parent.iml" />
+    </modules>
+  </component>
+</project>
