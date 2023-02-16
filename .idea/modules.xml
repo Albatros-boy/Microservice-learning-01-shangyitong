@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/model/model.iml" filepath="$PROJECT_DIR$/shangyitong_parent/model/model.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/common/service-util/service-util.iml" filepath="$PROJECT_DIR$/shangyitong_parent/common/service-util/service-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service_cmn/service_cmn.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service_cmn/service_cmn.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service_hosp/service_hosp.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service_hosp/service_hosp.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service_user/service_user.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service_user/service_user.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/shangyitong_parent.iml" filepath="$PROJECT_DIR$/shangyitong_parent/shangyitong_parent.iml" />
