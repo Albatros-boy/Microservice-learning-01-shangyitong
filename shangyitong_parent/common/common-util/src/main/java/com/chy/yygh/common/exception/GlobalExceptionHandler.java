@@ -33,7 +33,7 @@ public class GlobalExceptionHandler {
      * @return
      */
     @ExceptionHandler(YyghException.class)
-//    @ResponseBody
+    //    @ResponseBody
     public Result error(YyghException e){
         return Result.build(e.getCode(), e.getMessage());
     }

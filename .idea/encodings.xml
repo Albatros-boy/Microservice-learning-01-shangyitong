@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/shangyitong_parent/common/common-util/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shangyitong_parent/common/service-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shangyitong_parent/hospital-manage/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shangyitong_parent/model/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shangyitong_parent/service/service_cmn/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shangyitong_parent/service/service_hosp/src/main/java" charset="UTF-8" />

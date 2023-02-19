@@ -1,0 +1,54 @@
+2023-02-19 22:52:00.013 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field hospitalService in com.chy.yygh.hosp.controller.api.ApiController required a bean of type 'com.chy.yygh.hosp.service.HospitalService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.chy.yygh.hosp.service.HospitalService' in your configuration.
+
+2023-02-19 22:54:52.825 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field hospitalService in com.chy.yygh.hosp.controller.api.ApiController required a bean of type 'com.chy.yygh.hosp.service.HospitalService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.chy.yygh.hosp.service.HospitalService' in your configuration.
+
+2023-02-19 22:57:42.763 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field hospitalService in com.chy.yygh.hosp.controller.api.ApiController required a bean of type 'com.chy.yygh.hosp.service.HospitalService' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.chy.yygh.hosp.service.HospitalService' in your configuration.
+

@@ -1,3 +1,6 @@
-2023-02-17 02:00:32.973 [Thread-12] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
-2023-02-17 02:00:32.996 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
-2023-02-17 02:00:33.011 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-02-20 02:19:43.280 [http-nio-8201-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-20 02:19:43.283 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-02-20 02:19:43.290 [http-nio-8201-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2023-02-20 02:25:30.362 [http-nio-8201-exec-5] INFO  org.mongodb.driver.connection - Closed connection [connectionId{localValue:2, serverValue:196}] to 39.106.137.121:27017 because there was a socket exception raised by this connection.
+2023-02-20 02:25:30.363 [http-nio-8201-exec-5] INFO  org.mongodb.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=STANDALONE, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=39.106.137.121:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+2023-02-20 02:25:30.499 [http-nio-8201-exec-5] INFO  org.mongodb.driver.connection - Opened connection [connectionId{localValue:3, serverValue:198}] to 39.106.137.121:27017
