@@ -1,5 +1,7 @@
 package com.chy.yygh.hosp.service;
 
+import com.chy.yygh.model.hosp.Hospital;
+import com.chy.yygh.model.hosp.HospitalSet;
 import org.springframework.stereotype.Service;
 
 import java.util.Map;
@@ -14,4 +16,6 @@ import java.util.Map;
 
 public interface HospitalService {
     void save(Map<String, Object> paramMap);
+
+    Hospital getByHoscode(String hoscode);
 }

@@ -17,5 +17,7 @@ public interface HospitalRepository extends MongoRepository<Hospital,String> {
 
     //判断是否存在数据
     Hospital getHosptialByHoscode(String hoscode);
+
+    Hospital getHospitalByHoscode(String hoscode);
 }
 
