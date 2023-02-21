@@ -1,5 +1,10 @@
 package com.chy.yygh.hosp.service;
 
+
+import com.chy.yygh.model.hosp.Department;
+import com.chy.yygh.vo.hosp.DepartmentQueryVo;
+import org.springframework.data.domain.Page;
+
 import java.util.Map;
 
 /**
@@ -10,4 +15,8 @@ import java.util.Map;
  */
 public interface DepartmentService {
     void save(Map<String, Object> paramMap);
+
+    Page<Department> findPageDepartment(int page, int limit, DepartmentQueryVo departmentQueryVo);
+
+    void remove(String hoscode, String depcode);
 }
