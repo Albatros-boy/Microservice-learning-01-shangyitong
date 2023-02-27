@@ -8,6 +8,8 @@
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/hospital-manage/hospital-manage.iml" filepath="$PROJECT_DIR$/shangyitong_parent/hospital-manage/hospital-manage.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/model/model.iml" filepath="$PROJECT_DIR$/shangyitong_parent/model/model.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service-client/service-client.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service-client/service-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service-client/service-cmn-client/service-cmn-client.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service-client/service-cmn-client/service-cmn-client.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/common/service-util/service-util.iml" filepath="$PROJECT_DIR$/shangyitong_parent/common/service-util/service-util.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service_cmn/service_cmn.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service_cmn/service_cmn.iml" />
       <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service_hosp/service_hosp.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service_hosp/service_hosp.iml" />

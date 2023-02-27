@@ -13,6 +13,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
+import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletResponse;
@@ -82,6 +83,27 @@ public class DictServiceImpl extends ServiceImpl<DictMapper, Dict> implements Di
         }
     }
 
+    @Override
+    @Cacheable(value = "dict",keyGenerator = "keyGenerator")
+    public String getDictName(String dictCode, String value) {
+        //如果value能唯一定位数据字典，parentDictCode可以传空，例如：省市区的value值能够唯一确定
+        if(StringUtils.isEmpty(dictCode)) {
+            Dict dict = baseMapper.selectOne(new QueryWrapper<Dict>().eq("value", value));
+            return dict.getName();
+        } else {
+            Dict codeDict = this.getByDictsCode(dictCode);
+            Long id = codeDict.getId();
+            Dict dict = baseMapper.selectOne(new QueryWrapper<Dict>().eq("parent_id", id).eq("value", value));
+
+            return dict.getName();
+        }
+    }
+
+
+    private Dict getByDictsCode(String dictcode){
+        Dict dict = baseMapper.selectOne(new QueryWrapper<Dict>().eq("dict_code", dictcode));
+        return  dict;
+    }
 
     //判断id下面是否有子节点
     private boolean isChildren(Long id) {
