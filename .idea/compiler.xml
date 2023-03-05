@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="server-gateway" />
         <module name="common-util" />
         <module name="service_user" />
         <module name="service-cmn-client" />
@@ -22,6 +23,7 @@
       <module name="common-util" target="1.8" />
       <module name="hospital-manage" target="1.8" />
       <module name="model" target="1.8" />
+      <module name="server-gateway" target="1.8" />
       <module name="service" target="1.8" />
       <module name="service-client" target="1.8" />
       <module name="service-cmn-client" target="1.8" />
@@ -38,6 +40,7 @@
       <module name="common-util" options="-parameters" />
       <module name="hospital-manage" options="-parameters" />
       <module name="model" options="-parameters" />
+      <module name="server-gateway" options="-parameters" />
       <module name="service" options="" />
       <module name="service-client" options="" />
       <module name="service-cmn-client" options="-parameters" />
