@@ -1,4 +1,4 @@
-2023-03-01 11:53:50.782 [restartedMain] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-hosp register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='127.0.0.1:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-hosp', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.137.1', networkInterface='', port=8201, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
+2023-02-28 22:26:01.684 [restartedMain] ERROR c.a.cloud.nacos.registry.NacosServiceRegistry - nacos registry, service-hosp register failed...NacosRegistration{nacosDiscoveryProperties=NacosDiscoveryProperties{serverAddr='127.0.0.1:8848', endpoint='', namespace='', watchDelay=30000, logName='', service='service-hosp', weight=1.0, clusterName='DEFAULT', group='DEFAULT_GROUP', namingLoadCacheAtStart='false', metadata={preserved.register.source=SPRING_CLOUD}, registerEnabled=true, ip='192.168.137.1', networkInterface='', port=8201, secure=false, accessKey='', secretKey='', heartBeatInterval=null, heartBeatTimeout=null, ipDeleteTimeout=null}},
 com.alibaba.nacos.api.exception.NacosException: failed to req API:/api//nacos/v1/ns/instance after all servers([127.0.0.1:8848]) tried: java.net.ConnectException: Connection refused: connect
 	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:496)
 	at com.alibaba.nacos.client.naming.net.NamingProxy.reqAPI(NamingProxy.java:401)
@@ -31,7 +31,7 @@ com.alibaba.nacos.api.exception.NacosException: failed to req API:/api//nacos/v1
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
-2023-03-01 11:53:51.397 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
+2023-02-28 22:26:02.641 [restartedMain] ERROR org.springframework.boot.SpringApplication - Application run failed
 java.lang.reflect.UndeclaredThrowableException: null
 	at org.springframework.util.ReflectionUtils.rethrowRuntimeException(ReflectionUtils.java:147)
 	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:73)
@@ -68,31 +68,3 @@ Caused by: com.alibaba.nacos.api.exception.NacosException: failed to req API:/ap
 	at com.alibaba.nacos.client.naming.NacosNamingService.registerInstance(NacosNamingService.java:207)
 	at com.alibaba.cloud.nacos.registry.NacosServiceRegistry.register(NacosServiceRegistry.java:64)
 	... 25 common frames omitted
-2023-03-04 16:34:41.277 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8201 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8201 or configure this application to listen on another port.
-
-2023-03-04 16:37:33.822 [restartedMain] ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter - 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8201 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8201 or configure this application to listen on another port.
-
