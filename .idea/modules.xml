@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Microservice-learning-01-shangyitong.iml" filepath="$PROJECT_DIR$/.idea/Microservice-learning-01-shangyitong.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/common/common.iml" filepath="$PROJECT_DIR$/shangyitong_parent/common/common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/common/common-util/common-util.iml" filepath="$PROJECT_DIR$/shangyitong_parent/common/common-util/common-util.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/hospital-manage/hospital-manage.iml" filepath="$PROJECT_DIR$/shangyitong_parent/hospital-manage/hospital-manage.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/model/model.iml" filepath="$PROJECT_DIR$/shangyitong_parent/model/model.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/server_gateway/server-gateway.iml" filepath="$PROJECT_DIR$/shangyitong_parent/server_gateway/server-gateway.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service-client/service-client.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service-client/service-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service-client/service-cmn-client/service-cmn-client.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service-client/service-cmn-client/service-cmn-client.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/common/service-util/service-util.iml" filepath="$PROJECT_DIR$/shangyitong_parent/common/service-util/service-util.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service_cmn/service_cmn.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service_cmn/service_cmn.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service_hosp/service_hosp.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service_hosp/service_hosp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/service/service_user/service_user.iml" filepath="$PROJECT_DIR$/shangyitong_parent/service/service_user/service_user.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shangyitong_parent/shangyitong_parent.iml" filepath="$PROJECT_DIR$/shangyitong_parent/shangyitong_parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/shangyitong_frontpage.iml" filepath="$PROJECT_DIR$/.idea/shangyitong_frontpage.iml" />
     </modules>
   </component>
 </project>
